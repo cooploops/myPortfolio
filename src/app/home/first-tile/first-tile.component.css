@@ -1,0 +1,25 @@
+.parallax-1 {
+    position:relative;
+    background-image: url("../../../assets/images/temple.jpg");
+    height:500px;
+    position:relative;
+    opacity: 0.75;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.text {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
