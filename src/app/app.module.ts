@@ -12,6 +12,7 @@ import { AboutpageComponent } from './about/aboutpage/aboutpage.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FirstTileComponent } from './home/first-tile/first-tile.component';
 import { SecondTileComponent } from './home/second-tile/second-tile.component';
+import { ThirdTileComponent } from './home/third-tile/third-tile.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { SecondTileComponent } from './home/second-tile/second-tile.component';
     AboutpageComponent,
     FirstTileComponent,
     SecondTileComponent,
+    ThirdTileComponent,
   ],
   imports: [
     BrowserModule,
