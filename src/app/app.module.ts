@@ -30,7 +30,7 @@ import { ThirdTileComponent } from './home/third-tile/third-tile.component';
     BsDropdownModule.forRoot(),
     ModalModule.forRoot(),
     CollapseModule.forRoot(),
-    CarouselModule.forRoot()
+    CarouselModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

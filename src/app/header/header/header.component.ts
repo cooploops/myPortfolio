@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 isCollapsed = true;
+
   constructor() { }
 
   ngOnInit() {
+
+  }
+
+  onIfNoCanClick(id: string) {
+    const elId = '#' + id;
+    document.querySelector(elId).scrollIntoView({behavior: 'smooth', block: 'start', inline: 'start'});
   }
 
 }
