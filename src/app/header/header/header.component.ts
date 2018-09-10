@@ -17,7 +17,7 @@ isCollapsed = true;
 
   onIfNoCanClick(id: string) {
     const elId = '#' + id;
-    document.querySelector(elId).scrollIntoView({behavior: 'smooth', block: 'start', inline: 'start'});
+    document.querySelector(elId).scrollIntoView({behavior: 'smooth', block: 'center', inline: 'start'});
   }
 
 }

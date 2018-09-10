@@ -23,6 +23,7 @@ show = false;
       backSpeed: 15,
       loop: false,
       smartBackspace: true,
+      showCursor: false,
       onComplete: self => {
         // method available on complete of typewriter to do something if you want to
         // this.show = true;
