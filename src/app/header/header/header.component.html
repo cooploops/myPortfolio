@@ -24,6 +24,37 @@
           <a class="dropdown-item" href="#">Project 3</a>
         </div>
       </li>
+      <ng-template #popTemplate>
+      <ul>
+          <li>
+              <a href="#" target="_blank">
+                  <fa-icon [icon]="faGithub" [fixedWidth]="true"></fa-icon> GitHub
+              </a>
+          </li>
+          <li>
+              <a href="#" target="_blank">
+                  <fa-icon [icon]="faTwitter" [fixedWidth]="true"></fa-icon> Twitter
+              </a>
+          </li>
+          <li>
+              <a href="#" target="_blank">
+                  <fa-icon [icon]="faLinkedin" [fixedWidth]="true"></fa-icon> LinkedIn
+              </a>
+          </li>
+          <li>
+              <a href="#" target="_blank">
+                  <fa-icon [icon]="faEnvelope" [fixedWidth]="true"></fa-icon> Email
+              </a>
+          </li>
+        </ul>
+      </ng-template>
+      <li class="nav-item">
+        <a class="nav-link" 
+        [popover]="popTemplate"
+        popoverTitle="Find me below"
+        placement="bottom"
+        [outsideClick]="true">Contact</a>
+      </li>
     </ul>
   </div>
 </nav>
