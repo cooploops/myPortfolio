@@ -5,9 +5,9 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <div class="container-fluid">
     <h4 class="text-center">Technologies I use</h4>
-      <carousel interval="3000">
+      <carousel interval="pause">
         <slide class="slide-wrapper">
-          <div class="row align-items-center">
+          <div class="row align-items-center text-center">
             <div class="col">
               <img src="../../../assets/images/angular-icon-logo-png-transparent.png" class="img-fluid">
             </div>
@@ -29,7 +29,7 @@ import { Component, OnInit } from '@angular/core';
           </div>
         </slide>
         <slide class="slide-wrapper">
-          <div class="row align-items-center">
+          <div class="row align-items-center text-center">
             <div class="col">
               <img src="../../../assets/images/mongodb.svg" class="img-fluid">
             </div>
@@ -43,7 +43,7 @@ import { Component, OnInit } from '@angular/core';
               <img src="../../../assets/images/firebase-logo-standard.png" class="img-fluid">
             </div>
             <div class="col">
-              <img src="../../../assets/images/nodejs-512.png" class="img-fluid">
+              <img src="../../../assets/images/nodejs.png" class="img-fluid">
             </div>
             <div class="col">
               <img src="../../../assets/images/SQL.svg" class="img-fluid">
@@ -51,7 +51,7 @@ import { Component, OnInit } from '@angular/core';
           </div>
         </slide>
         <slide class="slide-wrapper">
-          <div class="row align-items-center">
+          <div class="row align-items-center text-center">
             <div class="col">
               <img src="../../../assets/images/Confluence.png" class="img-fluid">
             </div>

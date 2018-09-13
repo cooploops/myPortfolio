@@ -2,18 +2,21 @@
     background-image: url("../../../assets/images/oceanBlue.jpg");
     position: relative;
     min-height:100%;
-    opacity: 0.75;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.projectHeader {
+    padding-bottom: .5rem;
+    background: rgba(255, 255, 255, 0.8);
+}
+
 .content {
     position: relative;
     left: 0;
     right: 0;
-    top: 0;
     width: 100%;
 }
 

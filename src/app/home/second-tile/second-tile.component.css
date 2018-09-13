@@ -1,3 +1,11 @@
 .slide-wrapper {
-    height: 16vw;
+    height: 11vw;
+}
+
+.img-fluid {
+    max-width:70%;
+}
+
+.container-fluid {
+    background: rgba(151, 205, 255, 0.8);
 }

@@ -16,6 +16,7 @@ import { FirstTileComponent } from './home/first-tile/first-tile.component';
 import { SecondTileComponent } from './home/second-tile/second-tile.component';
 import { ThirdTileComponent } from './home/third-tile/third-tile.component';
 import { FourthTileComponent } from './home/fourth-tile/fourth-tile.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { FourthTileComponent } from './home/fourth-tile/fourth-tile.component';
     SecondTileComponent,
     ThirdTileComponent,
     FourthTileComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
