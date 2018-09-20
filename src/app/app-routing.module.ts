@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const appRoutes: Routes = [
-    { path: '', component: HomepageComponent, pathMatch: 'full' },
+    { path: '', component: HomepageComponent, pathMatch: 'full'},
     { path: 'about', component: AboutpageComponent },
     { path: '**', component: HomepageComponent }
 ];

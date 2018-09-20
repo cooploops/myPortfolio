@@ -18,34 +18,5 @@
     left: 0;
     right: 0;
     width: 100%;
-}
-
-@media only screen and (max-width: 600px) {
-    .content {
-        top: 120%;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    .content {
-        top: 130%;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .content {
-        top: 130%;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    .content {
-        top: 135%;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .content {
-        top: 145%;
-    }
+    margin-top: 1rem;
 }

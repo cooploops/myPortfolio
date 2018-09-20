@@ -15,11 +15,11 @@
       </li>
       <li dropdown class="nav-item dropdown">
         <a dropdownToggle class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">
+          aria-expanded="false" (click)="onProjectsClick()">
           Projects
         </a>
         <div *dropdownMenu class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" (click)="onIfNoCanClick('ifNoCan')">If No Can</a>
+          <a class="dropdown-item" (click)="onProjectsLinkClick('ifNoCan')">If No Can</a>
           <a class="dropdown-item" href="#">Project 2</a>
           <a class="dropdown-item" href="#">Project 3</a>
         </div>
